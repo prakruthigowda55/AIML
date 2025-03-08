@@ -1,0 +1,9 @@
+a=np.array([1,4,9],float)
+print('square roots:',np.sqrt(a))
+b=np.array([1.1,1.5,1.9],float)
+print("floor:",np.floor(b))
+print("ceiling:",np.ceil(b))
+print("rint:",np.rint(b))
+print("value of pie:",np.pi)
+print("value of e:",np.e)
+
