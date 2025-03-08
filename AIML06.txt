@@ -1,0 +1,9 @@
+a=np.array([[4,20],[9,3]])
+det_a=np.linalg.det(a)
+print("determinant of a:",det_a)
+vals,vecs=np.linalg.eig(a)
+print("\neigen values:\n",vals)
+print('\n eigenvectors(as columns):\n',vecs)
+
+inv_a=np.linalg.inv(a)
+print("\n inverse of a:\n",inv_a)
